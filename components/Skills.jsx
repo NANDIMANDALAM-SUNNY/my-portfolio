@@ -6,11 +6,11 @@ const Skills = () => {
       {name:"CSS",val:"80"},
       {name:"JavaScript",val:"95"},
       {name:"React JS", val:"90"},
-      {name:"Node Js",val:"90"},
-      {name:"MongoDb",val:"75"},
+      {name:"Next JS", val:"90"},
       {name:"TypeScript",val:"60"},
-      {name:"React Native",val:"60"},
+      {name:"Node Js",val:"90"},
       {name:"php",val:"60"},
+      {name:"MongoDb",val:"75"},
 ]
   let SoftSkill = [
     {name:"Humanity"},
