@@ -1,77 +1,4 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -79,29 +6,423 @@
   margin: 0;
 }
 
-html,
+
+/* portfolio css */
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-size: 58px 58px;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 4;
+  text-shadow: 2px 3px grey;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  color: #1f456e;
+  font-size: 4em;
+  font-weight:bolder;
+  animation:example 1s infinite;
+}
+/* .typewriter h2 {
+  color: #1f456e;
+  font-family: cursive;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin:30px 0 30px 300px; 
+  letter-spacing: .15em; 
+  animation: typing 4s steps(40) 3s 1 normal both, blink-caret 500ms steps(40) normal infinite;
+} */
+.guviLOgo{
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+}
+.skillSet{
+  margin:50px 0 50px 0;
+}
+.skill-one,.skill-two{
+  border: #1f456e solid 2px; 
+  /* padding:5px 30px 5px 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+
+  margin: 0 10px 0 50px;
+} 
+
+.individual-skill{
+  margin-top: 20px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1f456e;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.containers > div {
+  flex: 50%; 
+  justify-content: center;
+  /* margin-top: 30px; */
+  max-width: 100%;
+  /* margin-left: 20px; */
+  align-items: center;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.proCard{
+  border: 2px solid black;
+  margin: 20px;
+}
+.cards-body:hover{
+  cursor: pointer;
+}
+.contact,.project{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+h1{
+  text-align: center;
+}
+.blg{
+  margin: 20px;
+  height: 275px;
+  padding: 20px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;  
+  text-align: center;
+  background-color: white;
+}
+img{
+  height: 150px;
+}
+.skill{
+  margin-top: 20px;
+  text-align: center;
+}
+h1{
+  margin-top: 20px;
+}
+.hieee{
+  display: none;
+}
+
+.contactImg{
+  height: 500px;
+  width: 100%;
+}
+
+
+.formContent{
+  border-left: 10px solid blue;
+  border-right: 10px solid green;
+  border-bottom : 10px solid yellow;
+  border-top : 15px solid red;
+  margin: 10px;
+}
+.line{
+  width: 100%;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid red;
+}
+.navItems{
+  color: white;
+}
+.navItems:hover{
+  color: white;
+}
+.anibutton{
+  animation: yesmove 5s 2;
+  margin: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+.anotherParent{
+  display: none;
+}
+.send-button{
+  font-family: monospace;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.send-button:active{
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.expCard{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 500px;
+  background: aliceblue;
+  border: #1f456e 10px solid;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 0 20px 20px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.expCard .expContent{
+  opacity: 0;
+}
+.expCard:hover .expItems{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+}
+.expCard:hover .smilePic{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+.expCard:hover .expContent
+{
+  opacity: 1;
+}
+.expCard:hover .guviLOgo{
+  display: none;
+}
+.blob{
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-color: #4bb8ff;
+  visibility: visible;
+}
+.parent{
+  height: 425px;
+  width: 100%;
+  background-color: aliceblue;          
+}
+.anotherPrent{
+  display: none;
+}
+ .rows{
+  height: 35%;
+  background-color: pink;
+}
+.black{
+  background-color:black;
+}
+.white{
+  background-color: #4bb8ff;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChessContent{
+font-size: 20px;
+opacity: 0;
+}
+.box:hover .ChessContent{
+  opacity: 1;
+}
+.box:hover{
+  background-color: aliceblue;
+  transform: scale(1.1);
+  border-radius: 10px;
+  cursor:move;
+}
+.expCard:hover{
+  width: 100%;
+  font-size: large;
+  line-height: 50px;
+}
+.expCard:hover p{
+  display: none;
+}
+.smilePic{
+  margin-top: 10px;
+  border: #4bb8ff 5px solid;
+  border-radius: 50%;
+}
+ul{
+  list-style-type: none;
+}
+@keyframes example {
+  from{
+    color:#1f456e;
   }
+  to{
+    color: navy;
+  }
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 23em }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:#1f456e; }
+}
+@keyframes yesmove {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }}
+@media screen and (max-width:412px) {
+  .home,.contact,.project{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .anibutton{
+    margin: 0px;
+    padding: 15px;
+  }
+.containers >div{
+  flex: 0;
+  min-width: 150px;
+  /* margin-right: 10px; */
+}
+ 
+  @media screen and (max-width:412px) {
+    .typewriter{
+      font-size: 15px;
+    } 
+  }
+  /* .skillSet{
+    display: grid;
+    grid-template-columns: auto;
+  } */
+  .rowSkills{
+    margin-top: 15px;
+  }
+  .skill-one{
+    border: #1f456e solid 2px; 
+    /* padding: 10px; */
+    /* margin: 0 10px 0 10px; */
+  } 
+  
+  
+  .formContent{
+    border: 15px solid #1f456e;
+    margin: 5px;
+  }
+  .sign,h1{
+    font-size: 25px;
+  }
+  .videobox{
+    height: fit-content;
+  
+  }
+  .topBottom{
+    width:auto;
+  }
+  .proCard{
+    border: 3px solid black;
+    margin: 20px;
+  }
+  .blg{
+    margin: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    background-color: white;
+  }
+  .expCard{
+    width: auto;
+    height: 600px;
+    background: aliceblue;
+    border: #1f456e 10px solid;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 0 10px 10px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .hieee{
+    display: block;
+    height: 250px;
+    margin: 10px 30px 30px 30px;
+  }
+  .expCard .expContent{
+    opacity: 0;
+  }
+  .expCard:hover .expItems{
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+  .expCard:hover .smilePic{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+  }
+  .expCard:hover .expContent
+  {
+    line-height: 30px;
+    text-align: left;
+
+    opacity: 1;
+  }
+  .expCard:hover .guviLOgo{
+    display: none;
+  }
+  .blob{
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+  }
+  .smilePic{
+    height: 200px; width: 200px;
+    border: #4bb8ff 5px solid;
+    border-radius: 50%;
+  }
+  .parent{
+    display: none;
+  }
+  .anotherParent{
+  display: block;
+  }
+  .anotherParent{
+    height: 400px;
+    width: 100%;
+    background-color: #bebebe;
+  }
+  .anotherRows{
+    height: 50%;
+  }
+}
+
+
+
+
+/* contact us */
+@media screen and (max-width:1002px) {
+  .contactImg{
+    display: none;
+  }
+}
+.skill-name{
+  font-size: 17px !important;
+}
+.nav-link{
+  color: white !important ;
+  
 }
