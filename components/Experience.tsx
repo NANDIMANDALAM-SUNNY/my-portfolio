@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import smile from "@/Imgs/smile.png"
-import guvi from "@/Imgs/guvi.png"
+import smile from "@/imgs/smile.png"
+import guvi from "@/imgs/guvi.png"
 import Image from 'next/image'
 const Experience = () => {
   const [hover,setHover]=useState(false)

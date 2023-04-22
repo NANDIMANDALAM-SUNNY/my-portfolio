@@ -1,6 +1,6 @@
 
 import React from 'react'
-import bye from '@/Imgs/bye.png'
+import bye from '@/imgs/bye.png'
 import emailjs from "emailjs-com"
 import Swal from 'sweetalert2';
 
