@@ -32,7 +32,7 @@ const Experience = () => {
               <span><b>Roles & Responsibilities</b></span>
               <ul>
               <li className='experience-content' >I started this internship in the month of November 2022.</li>
-              <li className='experience-content'>I have resolved over 1800+ queries.</li>
+              <li className='experience-content'>I have resolved over 2000+ queries.</li>
               <li className='experience-content'> My job is to clear all the errors and  doubts of all the Zen class Students.</li>
               <li className='experience-content'>I have learnt a lot of new implementation and techniques in this internship.</li>
               </ul>
