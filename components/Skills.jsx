@@ -9,7 +9,6 @@ const Skills = () => {
       {name:"Next JS", val:"90"},
       {name:"TypeScript",val:"60"},
       {name:"Node Js",val:"90"},
-      {name:"php",val:"60"},
       {name:"MongoDb",val:"75"},
 ]
   let SoftSkill = [
@@ -26,29 +25,7 @@ const Skills = () => {
   let skillColor = ["#0d6efd","#6c757d","#28a745","#dc3545","#ffc107","#17a2b8","#d63384","#fd7e14","#6610f2"]
   return (
     <>
-    {/* <section className='container skill' id='skills'>
-      <h1>SKILLS</h1>
-      <div className='skillSet'>
-        <div className='skill-one'>
-          {TechnicalSkill && TechnicalSkill.map((set,ind)=>(
-            <div key={ind} className="individual-skill">
-              <h5>{set.name}</h5>
-              <div className="progress">
-              <div className={`progress-bar bg-${colors[ind]}`} role="progressbar" style={{width: `${set.val}%`}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            </div>
-          ))}
-        </div>
-        <div className='skill-two' id='skills'>
-        {SoftSkill && SoftSkill.map((set,ind)=>(
-            <div key={ind} className={`softskills individual-skill`}>
-              <button style={{backgroundColor:`${skillColor[ind]}`}} className={`btn btn-lg anibutton`}>{set.name}</button>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-    */}
+    
       <div className='row skillSet' id='skills'>
         <h1>SKILLS</h1>
         <div className='col-md-5'> 
@@ -61,6 +38,7 @@ const Skills = () => {
               </div>
               </div>
             ))}
+              <p style={{marginTop:"23px",visibility:"hidden"}}>s</p>
           </div>
         </div>
         <div className='col-md-7'>

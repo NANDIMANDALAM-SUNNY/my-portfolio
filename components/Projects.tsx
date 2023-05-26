@@ -57,12 +57,6 @@ const Projects = () => {
       github : "https://github.com/NANDIMANDALAM-SUNNY/keepit",
       description: "KeepIT is a simple React app for students where a lot of different useful tools included"
       },
-      {
-        projectName : "GyanDaan",
-        deployedUrl : "https://gyandaan2772.netlify.app/",
-        github : "https://github.com/AgnesLily2772/Gyandaan",
-        description: "Gyandaan is a website to help students who can't afford coaching classes. Here both students and volunteers/mentors can sign up. This is website is made using frontend technology React JS and Firebase framework."
-      },
     ]
   return (
     <section className='container' id='projects'>

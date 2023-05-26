@@ -20,10 +20,8 @@ const Experience = () => {
         <div className='expItems'>
         <div className='image-Section'>
         <Image className='smilePic' src={smile} alt="smile"  style={{width:"100%"}} />
-          
         </div>
         <div className='content-Section'>
-          {/* <p><h5><em>N. Sunny</em></h5></p> */}
           <em>N. Sunny</em>
           <p>Intern</p>
           <div className='expContent'>
@@ -32,8 +30,8 @@ const Experience = () => {
               <span><b>Roles & Responsibilities</b></span>
               <ul>
               <li className='experience-content' >I started this internship in the month of November 2022.</li>
-              <li className='experience-content'>I have resolved over <b>2000+ queries.</b></li>
-              <li className='experience-content'> My job is to clear all the errors and  doubts of all the Zen class Students.</li>
+              <li className='experience-content'>I have resolved over <b>2200+ queries.</b></li>
+              <li className='experience-content'> My job is to clear all the errors and technical doubts of the Zen class Students.</li>
               <li className='experience-content'>I have learnt a lot of new implementation and techniques in this internship.</li>
               </ul>
   
