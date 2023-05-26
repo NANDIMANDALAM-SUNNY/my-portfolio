@@ -6,7 +6,7 @@ const Skills = () => {
       {name:"CSS",val:"80"},
       {name:"JavaScript",val:"95"},
       {name:"React JS", val:"90"},
-      {name:"Next JS", val:"90"},
+      {name:"Next JS", val:"60"},
       {name:"TypeScript",val:"40"},
       {name:"Node Js",val:"90"},
       {name:"MongoDb",val:"75"},
